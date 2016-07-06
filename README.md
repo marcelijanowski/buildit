@@ -1,6 +1,6 @@
 # Build it sample 5 days weather app
 
-Demo application showing 5 days weather using ES6 + React + Redux + Redux Thunk + Webpack
+Demo application showing 5 days weather using ES6 (Babel) + React + Redux + Redux Thunk + Webpack
 
 ## Demo version
 http://devel.com.pl/
@@ -28,12 +28,13 @@ npm test
 ```
 npm run build
 ```
+This will create build.js file inside dist/ folder .
 
 ## ToDO (limit of 4h max)
 * update code coverage and write more unit tests
 * use JSDOC for documenting code
 * use SCSS and style project in more nicely
 * create adapter for preprocessing data
-* missing BDD
-* write functional test with Docker
+* add missing BDD
+* use Docker container for testing
 * Change way build is working and use cdn from common lib (modify webpack)
